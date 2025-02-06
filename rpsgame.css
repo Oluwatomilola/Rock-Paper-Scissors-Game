@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    margin-left:  200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.heading-style {
+    margin: 20px; ;
+    padding: 18px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+}
+
+.score-board {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    text-align: justify;
+}
+
+p{
+    color: grey;
+    
+}
+
+.choices {
+    
+    margin-top: 50px;
+    width: 300px;
+    height: 270px;
+}
+
+.choices button {
+    /*background-color: #fff;*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.choices button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choices button img {
+    width: 50px;
+    height: 50px;
+}
+
+.rock {
+   
+   border-radius: 3600px;
+   border-color: rgb(202, 13, 13);
+   border-style: solid;
+   border-width: 10px;
+}
+
+.paper {
+    padding: 20px;
+    border-radius: 3600px;
+    border-color: rgb(74, 60, 223);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.scissors {
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 3600px;
+    border-color: rgb(232, 180, 7);
+    border-style: solid;
+    border-width: 10px;
+}
+.rules { 
+    margin-top: 100px;
+    position: ;
+    margin-left: 800px;
+    padding: 5px 19px;
+    border-radius: 8px;
+    font-size: smaller;
+    color: white;
+    background-color: transparent;
+}
+
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
