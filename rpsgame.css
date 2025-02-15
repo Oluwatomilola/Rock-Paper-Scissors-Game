@@ -40,8 +40,8 @@ p{
 
 .choices {
     justify-items: center;
-    margin-left: 200px;
-    margin-top: 50px;
+    margin-left: 250px;
+    margin-top: 90px;
     width: 300px;
     height: 270px;
     background-image: url(./images/bg-triangle.svg);
@@ -56,8 +56,8 @@ p{
 }
 
  .choices .rock {
-    margin-left: -40px;
-    margin-top: -45px;
+    margin-left: -36px;
+    margin-top: -40px;
     border-radius: 3600px;
     border-color: rgb(202, 13, 13);
     border-style: solid;
@@ -65,8 +65,8 @@ p{
  }
 
  .choices .paper {
-    margin-right: 100px;
-    margin-top: -50px;
+    margin-left: 210px;
+    margin-top: -45px;
     border-radius: 3600px;
     border-color: rgb(74, 60, 223);
     border-style: solid;
@@ -74,8 +74,8 @@ p{
  }
 
  .choices .scissors {
-    margin-left: -40px;
-    margin-bottom: 2px;
+    margin-left: 94px;
+    margin-top: 185px;
     border-radius: 3600px;
     border-color: rgb(232, 180, 7);
     border-style: solid;
