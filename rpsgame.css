@@ -23,15 +23,40 @@ body {
     border-radius: 15px;
 }
 
-h1 {
+.heading-style h1 {
     color: white;
 }
 
 .score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 5px;
-    background-color: #fff;
-    padding: 40px;
-    text-align: justify;
+    background-color: rgba(1, 23, 54, 0.915);
+    padding: 20px;
+    text-align: center;
+}
+.score {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.user-score, .computer-score {
+    text-align: center;
+    flex: 1;
+    padding-left: 25px;
+}
+
+.user-score p, .computer-score p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.heading-style h1, .user-score h1, .computer-score h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
 }
 
 p{
