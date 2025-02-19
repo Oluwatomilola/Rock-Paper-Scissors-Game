@@ -60,7 +60,7 @@ body {
 }
 
 p{
-    color: grey;
+    color: rgb(255, 255, 255);
 }
 
 .choices {
@@ -110,7 +110,7 @@ p{
 
 
 .rules { 
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 800px;
     padding: 5px 19px;
     border-radius: 8px;
