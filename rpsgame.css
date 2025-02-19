@@ -119,6 +119,19 @@ p{
     background-color: transparent;
 }
 
+/* .rules:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.rules a {
+    text-decoration: none;
+    color: white;
+}
+
+.rules a:hover {
+    color: rgb(255, 255, 255); */
+
+
 
 .result {
     margin-top: 20px;

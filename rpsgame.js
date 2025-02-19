@@ -53,17 +53,29 @@ function displayResult(winner, userChoice, computerChoice) {
     }
 }
 
-function pointsalert() {
+function pointsAlert() {
     alert("Rock beats Scissors, Scissors beats Paper, Paper beats Rock.");
 }
 
+let Rules = function() {
+    return("if you win, you gain 1 point. If the computer wins, computer gains one point.");
+}
+
+function resetGame() {
+    userScore = 0;
+    computerScore = 0;
+    userScoreElement.textContent = userScore;
+    computerScoreElement.textContent = computerScore;
+    resultElement.textContent = '';
+}
+
+
 
 function readRules() {
-     document.getElementById("rules").innerHTML = "if you win, you gain 1 point. If the computer wins, computer gains one point";
+    let readRules = "if you win, you gain 1 point. If the computer wins, computer gains one point";
+    return readRules;
+
+    
 }
 
-
- function readRules() {
-   alert( "if you win, you gain 1 point. If the computer wins, computer gains one point");
-   
-}
+//alert( "if you win, you gain 1 point. If the computer wins, computer gains one point");
